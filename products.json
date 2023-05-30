@@ -1,0 +1,393 @@
+{
+    "items": [{
+            "id": "1",
+            "title": "women yellow dress",
+            "image": "../images/product-1.jpeg",
+            "price": 105.99
+        },
+        {
+            "id": "2",
+            "title": "name of product 2",
+            "image": "/images/product-2.jpeg",
+            "price": 45.99
+        },
+        {
+            "id": "3",
+            "title": "name of product 3",
+            "image": "/images/product-3.webp",
+            "price": 35.99
+        },
+        {
+            "id": "4",
+            "title": "name of product 4",
+            "image": "/images/product-4.jpeg",
+            "price": 150.90
+        },
+        {
+            "id": "5",
+            "title": "name of product 5",
+            "image": "/images/product-5.jpeg",
+            "price": 120.99
+        },
+        {
+            "id": "6",
+            "title": "name of product 6",
+            "image": "/images/product-6.webp",
+            "price": 345.99
+        },
+        {
+            "id": "7",
+            "title": "name of product 7",
+            "image": "/images/product-7.jpeg",
+            "price": 135.99
+        },
+        {
+            "id": "8",
+            "title": "name of product 8",
+            "image": "/images/product-8.webp",
+            "price": 45.99
+        },
+
+        {
+            "id": "10",
+            "title": "name of product 10",
+            "image": "/images/product-10.jpeg",
+            "price": 145.99
+        },
+        {
+            "id": "11",
+            "title": "name of product 11",
+            "image": "/images/product-11.jpeg",
+            "price": 234.99
+        },
+        {
+            "id": "12",
+            "title": "women blue dress",
+            "image": "/images/product-12.jpeg",
+            "price": 105.99
+        },
+        {
+            "id": "13",
+            "title": "dress",
+            "image": "/images/product-13.jpeg",
+            "price": 100.99
+        },
+        {
+            "id": "14",
+            "title": "name of product",
+            "image": "/images/product-14.webp",
+            "price": 123.99
+        },
+        {
+            "id": "15",
+            "title": "bag",
+            "image": "/images/product-15.jpeg",
+            "price": 150.90
+        },
+        {
+            "id": "16",
+            "title": "name of product",
+            "image": "/images/product-16.webp",
+            "price": 143.99
+        },
+        {
+            "id": "17",
+            "title": "name of product",
+            "image": "/images/product-17.webp",
+            "price": 132.99
+        },
+        {
+            "id": "18",
+            "title": "bag",
+            "image": "/images/product-18.webp",
+            "price": 170.99
+        },
+        {
+            "id": "19",
+            "title": "name of product",
+            "image": "/images/product-19.webp",
+            "price": 122.99
+        },
+        {
+            "id": "20",
+            "title": "name of product",
+            "image": "/images/product-20.jpeg",
+            "price": 142.99
+        },
+        {
+            "id": "21",
+            "title": "t-shirt",
+            "image": "/images/product-21.jpeg",
+            "price": 190.99
+        },
+        {
+            "id": "22",
+            "title": "t-shirt",
+            "image": "/images/product-22.jpeg",
+            "price": 154.99
+        },
+        {
+            "id": "23",
+            "title": "name of product",
+            "image": "/images/product-23.jpeg",
+            "price": 143.99
+        },
+        {
+            "id": "24",
+            "title": "name of product",
+            "image": "/images/product-241.jpeg",
+            "price": 158.99
+        },
+        {
+            "id": "25",
+            "title": "name of product",
+            "image": "/images/product-25.webp",
+            "price": 124.90
+        },
+        {
+            "id": "26",
+            "title": "dress",
+            "image": "/images/product-26.jpeg",
+            "price": 136.99
+        },
+        {
+            "id": "27",
+            "title": "name of product",
+            "image": "/images/product-27.jpeg",
+            "price": 170.90
+        },
+        {
+            "id": "28",
+            "title": "name of product",
+            "image": "/images/product-28.webp",
+            "price": 345.99
+        },
+        {
+            "id": "29",
+            "title": "name of product",
+            "image": "/images/product-29.jpeg",
+            "price": 345.99
+        },
+        {
+            "id": "30",
+            "title": "t-shirt",
+            "image": "/images/product-30.jpeg",
+            "price": 345.99
+        },
+        {
+            "id": "31",
+            "title": "dress",
+            "image": "/images/product-31.jpeg",
+            "price": 345.99
+        },
+        {
+            "id": "32",
+            "title": "name of product",
+            "image": "/images/product-32.jpeg",
+            "price": 345.99
+        },
+        {
+            "id": "33",
+            "title": "t-shirt",
+            "image": "/images/product-33.jpeg",
+            "price": 345.99
+        },
+        {
+            "id": "34",
+            "title": "name of product",
+            "image": "/images/product-34.webp",
+            "price": 345.99
+        },
+        {
+            "id": "35",
+            "title": "name of product",
+            "image": "/images/product-35.jpeg",
+            "price": 345.99
+        },
+        {
+            "id": "36",
+            "title": "bag",
+            "image": "/images/product-36.jpeg",
+            "price": 345.99
+        },
+        {
+            "id": "37",
+            "title": "t-shirt",
+            "image": "/images/product-37.jpeg",
+            "price": 105.99
+        },
+        {
+            "id": "38",
+            "title": "name of product",
+            "image": "/images/product-38.jpeg",
+            "price": 345.99
+        },
+        {
+            "id": "39",
+            "title": "name of product",
+            "image": "/images/product-39.jpeg",
+            "price": 150.90
+        },
+        {
+            "id": "40",
+            "title": "name of product",
+            "image": "/images/product-40.jpeg",
+            "price": 345.99
+        }, {
+            "id": "41",
+            "title": "name of product",
+            "image": "/images/product-41.jpeg",
+            "price": 345.99
+        }, {
+            "id": "42",
+            "title": "name of product",
+            "image": "/images/product-42.jpeg",
+            "price": 345.99
+        }, {
+            "id": "43",
+            "title": "bag",
+            "image": "/images/product-43.jpeg",
+            "price": 345.99
+        }, {
+            "id": "44",
+            "title": "name of product",
+            "image": "/images/product-44.webp",
+            "price": 345.99
+        }, {
+            "id": "45",
+            "title": "women dress",
+            "image": "/images/product-45.jpeg",
+            "price": 345.99
+        }, {
+            "id": "46",
+            "title": "name of product",
+            "image": "/images/product-46.jpeg",
+            "price": 345.99
+        }, {
+            "id": "47",
+            "title": "name of product",
+            "image": "/images/product-47.jpeg",
+            "price": 345.99
+        }, {
+            "id": "48",
+            "title": "women jeans",
+            "image": "/images/product-48.jpeg",
+            "price": 105.99
+        }, {
+            "id": "49",
+            "title": "name of product",
+            "image": "/images/product-49.jpeg",
+            "price": 345.99
+        }, {
+            "id": "50",
+            "title": "name of product",
+            "image": "/images/product-50.jpeg",
+            "price": 345.99
+        }, {
+            "id": "51",
+            "title": "name of product",
+            "image": "/images/product-51.jpeg",
+            "price": 345.99
+        }, {
+            "id": "52",
+            "title": "name of product",
+            "image": "/images/product-52.jpeg",
+            "price": 345.99
+        }, {
+            "id": "53",
+            "title": "skirt women",
+            "image": "/images/product-53.jpeg",
+            "price": 345.99
+        }, {
+            "id": "54",
+            "title": "name of product",
+            "image": "/images/product-54.jpeg",
+            "price": 345.99
+        }, {
+            "id": "55",
+            "title": "name of product",
+            "image": "/images/product-55.jpeg",
+            "price": 345.99
+        }, {
+            "id": "56",
+            "title": "name of product",
+            "image": "/images/product-561.jpeg",
+            "price": 150.90
+        }, {
+            "id": "57",
+            "title": "bag women",
+            "image": "/images/product-57.jpeg",
+            "price": 345.99
+        }, {
+            "id": "58",
+            "title": "name of product",
+            "image": "/images/product-58.jpeg",
+            "price": 345.99
+        }, {
+            "id": "59",
+            "title": "name of product",
+            "image": "/images/product-59.jpeg",
+            "price": 105.99
+        }, {
+            "id": "60",
+            "title": "name of product",
+            "image": "/images/product-60.jpeg",
+            "price": 345.99
+        }, {
+            "id": "70",
+            "title": "name of product",
+            "image": "/images/product-70.webp",
+            "price": 345.99
+        }, {
+            "id": "71",
+            "title": "name of product",
+            "image": "/images/product-71.webp",
+            "price": 345.99
+        }, {
+            "id": "72",
+            "title": "name of product",
+            "image": "/images/product-72.webp",
+            "price": 345.99
+        }, {
+            "id": "73",
+            "title": "name of product",
+            "image": "/images/product-73.webp",
+            "price": 345.99
+        }, {
+            "id": "74",
+            "title": "name of product",
+            "image": "/images/product-74.jpeg",
+            "price": 345.99
+        }, {
+            "id": "75",
+            "title": "name of product",
+            "image": "/images/product-75.jpeg",
+            "price": 345.99
+        }, {
+            "id": "76",
+            "title": "name of product",
+            "image": "/images/product-76.jpeg",
+            "price": 345.99
+        }, {
+            "id": "77",
+            "title": "name of product",
+            "image": "/images/product-77.jpeg",
+            "price": 345.99
+        }, {
+            "id": "78",
+            "title": "name of product",
+            "image": "/images/product-78.jpeg",
+            "price": 345.99
+        }, {
+            "id": "79",
+            "title": "name of product",
+            "image": "/images/product-79.jpeg",
+            "price": 105.99
+        }, {
+            "id": "80",
+            "title": "name of product",
+            "image": "/images/product-80.jpeg",
+            "price": 150.90
+        }
+    ]
+}

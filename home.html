@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Vintage Website</title>
+</head>
+
+<body>
+    <!--START OF NAVBAR-->
+    <nav class="nav-container navbar d-flex justify-content-center position-sticky">
+        <div class="col-10 col-md-9 d-flex justify-content-between">
+
+            <!--right-navbar logo-img -->
+            <div class="col-3 col-md-3">
+                <a class="navbar-brand" href="home.html">
+                    <img src="images/imageedit_2_8409754609.png" alt="logo-img" />
+                </a>
+            </div>
+
+            <!-- toggle-btn -->
+            <!-- <div class="col-6">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div> -->
+
+            <!-- navigatoin-bar -->
+
+            <div class="d-flex col-9 col-md-4 justify-content-between fw-bold mt-4">
+                <a class="nav-link active ms-2" aria-current="page" href="home.html">Home</a>
+                <a class="nav-link ms-2 " href="about.html">About</a>
+                <a class="nav-link ms-2 " href="blog.html">Blog</a>
+                <a class="nav-link  ms-2" href="contact.html">Contact</a>
+                <a class="cart-btn position-relative ms-2 text-dark" href="#">
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+                </a>
+                <div class="cart-items position-absolute fw-bold">0</div>
+            </div>
+
+        </div>
+    </nav>
+    <!--END OF NAVBAR-->
+
+
+    <!-- START OF HEADER -->
+    <header class="d-flex align-items-center justify-content-center col-12 ">
+        <div class="header-container text-center d-inline-block p-1 col-7 mt-5">
+            <h1 class="header-title mb-5 mt-5 fw-semibold">Vintage Treasures</h1>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quisquam numquam nihil pariatur sint totam laborum ipsum mollitia voluptates explicabo voluptatum, consequatur id nemo sequi at sit quae similique incidunt!</p>
+            <button class="banner-btn">Shop now</button>
+
+        </div>
+
+    </header>
+    <!-- END OF HEADER -->
+    <main>
+        <!-- START OF PRODUCTS CONTAINER -->
+        <div class="products">
+            <div class="profucts-title text-center">
+                <h2 class="mb-5">Our Products</h2>
+                <input type="search" placeholder="Search product" class="me-2 mb-5 fw-bold">
+            </div>
+            <div class="products-container d-grid col-7 col-md-10 justify-content-center">
+                <!-- adding prodacts with js -->
+            </div>
+        </div>
+        <!-- END OF PRODUCTS CONTAINER -->
+
+        <!-- START OF CART -->
+        <div class="cart-container position-fixed  visually-hidden">
+            <div class="cart position-fixed">
+                <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+                <h2 class="text-center">your cart</h2>
+                <div class="cart-content">
+                    <!-- adding cart items with js -->
+                </div>
+                <div class="cart-footer text-center">
+                    <h3>your total: $<span class="cart-total">0</span></h3>
+                    <button class="clear-cart banner-btn">clear cart</button>
+
+                </div>
+            </div>
+        </div>
+        <!-- END OF CART -->
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script> -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

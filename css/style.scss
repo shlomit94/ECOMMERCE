@@ -1,0 +1,258 @@
+:root {
+    // --primeryColor: rgb(240, 138, 155);
+    --primeryColor: rgb(146, 105, 30);
+    --greyColor: rgb(75, 73, 73);
+    --transition: all 0.3 linear;
+    --transform: capitalize;
+}
+
+// START OF NAVBAR
+body {
+    color: var(--greyColor);
+    overflow-x: hidden;
+    background-image: url("/images/try-22_auto_x2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.banner-btn {
+    color: var(--greyColor);
+    padding: 1rem 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    background-color: var(--primeryColor);
+    border: 1px solid var(--primeryColor);
+    cursor: pointer;
+}
+
+.nav-container {
+    top: 0;
+    height: 80px;
+    background-color: whitesmoke;
+    z-index: 1;
+    img {
+        width: 190px;
+        height: 80px;
+    }
+    .cart-items {
+        font-size: 10px;
+        top: 30px;
+        right: 150px;
+        background-color: rgb(146, 105, 30);
+        padding: 0 5px;
+        border-radius: 20%;
+    }
+}
+
+// END OF NAVBAR
+// START OF HEADER
+header {
+    min-height: calc(100vh - 120px);
+    .header-container {
+        background-color: rgba(255, 255, 255, 0.8);
+        min-width: 300px;
+        height: auto;
+        // border-radius: 5rem;
+        .header-title {
+            font-size: 60px;
+            letter-spacing: 2px;
+        }
+        .banner-btn:hover {
+            background: transparent;
+            color: var(--primeryColor);
+            transition: var(--transition);
+        }
+    }
+}
+
+// END OF HEADER
+//START OF PRODUCTS CONTAINER
+.products {
+    padding: 4rem 0;
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 5rem;
+        text-transform: var(--transform);
+        letter-spacing: 3px;
+        color: rgb(99, 71, 19);
+    }
+    input {
+        border-radius: 0.3rem;
+        height: 2.5rem;
+        width: 15rem;
+        border: 2px solid rgb(99, 71, 19);
+        ;
+    }
+    .products-container {
+        max-width: 1170px;
+        margin: 0 auto;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-column-gap: 1.5rem;
+        grid-row-gap: 2rem;
+        .product-img {
+            min-height: 12rem;
+            max-height: 12rem;
+            transition: var(--transition);
+        }
+        .bag-btn {
+            font-size: 13px;
+            top: 60%;
+            right: 0;
+            background-color: var(--primeryColor);
+            border: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: var(--transition);
+            transform: translateX(101%);
+            cursor: pointer;
+        }
+        .bag-btn:hover {
+            color: white;
+        }
+        .fa-shopping-cart {
+            margin-right: 0.5rem;
+        }
+        .img-container:hover {
+            .bag-btn {
+                transform: translateX(0);
+            }
+            .product-img {
+                opacity: 0.5;
+            }
+        }
+        .product-img {
+            min-height: 12rem;
+            max-width: 17rem;
+            transition: var(--transition);
+        }
+        h3 {
+            text-transform: var(--transform);
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            letter-spacing: 3px;
+        }
+        h4 {
+            text-transform: var(--transform);
+            font-size: 1.1rem;
+            margin-top: 0.7rem;
+            letter-spacing: 3px;
+            color: var(--primeryColor);
+        }
+    }
+}
+
+//END OF PRODUCTS CONTAINER
+// START OF CART
+.cart-container {
+    top: 0;
+    right: 0;
+    transition: var(--transition);
+    background: rgba(240, 157, 81, 0.5);
+    z-index: 2;
+    max-height: none;
+    overflow-y: scroll;
+    height: 100%;
+    .transpatentBg {
+        visibility: visible;
+    }
+    .cart {
+        height: 100%;
+        width: 30vw;
+        top: 0;
+        right: 0;
+        overflow-y: scroll;
+        background: rgb(231, 226, 221);
+        z-index: 3;
+        padding: 1rem 3rem;
+        transition: var(--transition);
+        transform: translateX(3%);
+        // adding class with js
+        .show-cart {
+            transform: translateX(0);
+        }
+        // adding class with js
+        .close-cart {
+            font-size: 1.7rem;
+            cursor: pointer;
+        }
+        h2 {
+            text-transform: var(--transform);
+            letter-spacing: 1px;
+            margin-bottom: 2rem;
+        }
+        .cart-item {
+            grid-template-columns: auto 1fr auto;
+            grid-column-gap: 1.5rem;
+            margin: 1.5rem 0;
+            .products-details {
+                h4 {
+                    font-size: 0.9rem;
+                    text-transform: var(--transform);
+                    letter-spacing: 1px;
+                    margin-bottom: 0.6rem;
+                }
+                h5 {
+                    font-size: 1rem;
+                    margin: 0.5rem 0;
+                    letter-spacing: 1px;
+                }
+                .remove-item {
+                    font-size: 1rem;
+                    color: grey;
+                    cursor: pointer;
+                }
+            }
+            img {
+                width: 75px;
+                height: 75px;
+            }
+            .fa-chevron-up,
+            .fa-chevron-down {
+                color: var(--primeryColor);
+                cursor: pointer;
+            }
+        }
+        .cart-footer {
+            margin-top: 2rem;
+            letter-spacing: 1px;
+            h3 {
+                text-transform: var(--transform);
+                margin-bottom: 1rem;
+                font-size: 1.3rem;
+            }
+            .clear-cart {
+                font-size: 1rem;
+                padding: 0.5rem 1rem;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+// END OF CART
+//media query
+@media screen and (max-width: 768px) {
+    //nav
+    .nav-container {
+        .cart-items {
+            right: 45px;
+            top: 30px;
+        }
+    }
+    //cart
+    .cart {
+        min-width: 450px;
+        transform: translateX(30%);
+    }
+    //product
+    .products-container {
+        .bag-btn {
+            font-size: 10rem;
+            padding: 0.2rem 0.2rem;
+        }
+    }
+}
